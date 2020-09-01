@@ -21,7 +21,7 @@
 关于本地服务依赖，请在根目录使用
 
 ```shell
-pip install -r requirement.txt && npm i
+pip install -r requirement.txt && npm install commitizen -g && npm i
 ```
 
 进行一键安装。
@@ -32,7 +32,7 @@ pip install -r requirement.txt && npm i
 
 使用Markdown或reST修改`source/`中的对应文档，其中index.rst为文档入口（首页），各文档均会打包生成为`.html`文件。
 
-###### 动态编写
+##### 动态编写
 
 可在VSCode中使用**reStructuredText**扩展进行动态编写。
 
