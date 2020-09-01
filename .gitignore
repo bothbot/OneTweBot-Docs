@@ -7,6 +7,8 @@ public/
 .deploy*/
 *.pyc
 .vscode/
-*.py
 cache/
 build/
+botinterface/
+config.py
+source/_build/
