@@ -3,8 +3,8 @@
   "version": "2.0.1",
   "private": true,
   "scripts": {
-    "build": "sphinx-build -b html source build",
-    "serve": "sphinx-build -b html source build && cd build && python -m http.server 80",
+    "build": "./make html",
+    "serve": "./make html && cd build/html && python -m http.server 80",
     "done": "git add . && git cz"
   },
   "dependencies": {

@@ -41,9 +41,17 @@ pip install -r requirement.txt && npm install commitizen -g && npm i
 使用
 
 ```
-sphinx-build -b html source build
+sphinx-build -b html source static
 ```
-编译静态页面。
+编译静态页面至Static文件夹。
+
+##### 编译并部署
+
+使用
+```
+./make html
+```
+编译静态网页至`build/html`，可实现Push后自动更新部署至Readthedocs。
 
 #### 本地服务
 
@@ -51,7 +59,7 @@ sphinx-build -b html source build
 
 ```
 # 进入静态网页根目录
-cd build
+cd static
 # 在本地80端口启动服务
 python -m http.server 80
 ```
