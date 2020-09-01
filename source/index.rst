@@ -3,18 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to tweetToBot-documentation's documentation!
+tweetToBot项目文档
 ====================================================
 
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 5
 
+   admin-guide
+   user-guide
+   resources
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
