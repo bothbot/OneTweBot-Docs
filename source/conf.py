@@ -14,7 +14,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
-
+import rst2pdf
+import recommonmark
 # -- Project information -----------------------------------------------------
 
 project = 'tweetToBot'
