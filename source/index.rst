@@ -10,20 +10,6 @@ tweetToBot项目文档
 ------------------------
 项目简介
 ------------------------
-.. image:: https://img.shields.io/static/v1?label=Nonebot&message=1.7.0&color=green&style=flat-square&link=https://github.com/nonebot/nonebot
-
-.. image:: https://img.shields.io/static/v1?label=Python&message=3.7&color=blue&style=flat-square&link=https://www.python.org/
-
-.. image:: https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=red&style=flat-square&link=https://github.com/chenxuan353/tweetToBot/blob/v3/LICENSE
-
-.. image:: https://img.shields.io/static/v1?label=cqhttp-mirai&message=4.8&color=9cf&style=flat-square&link=https://github.com/yyuueexxiinngg/cqhttp-mirai
-
-.. image:: https://img.shields.io/static/v1?label=MIRAI&message=3.7&color=9cf&style=flat-square&link=https://github.com/mamoe/mirai
-
-.. image:: https://img.shields.io/static/v1?label=CQHTTP&message=4.8&color=brightgreen&style=flat-square&link=https://github.com/nonebot/aiocqhttp
-
-.. image:: https://img.shields.io/static/v1?label=go-cqhttp&message=stable&color=brightgreen&style=flat-square&link=https://github.com/Mrs4s/go-cqhttp
-
 
 本项目为一对多转推服务的BOT后端，支持多种订阅形式。目前主要以CQ插件作为载体实现消息推送，服务遵从OneBot接口标准，可以适配各类CQHTTP服务。
 

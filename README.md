@@ -1,5 +1,21 @@
 # Docs分支
 
+
+![](https://img.shields.io/static/v1?label=Nonebot&message=1.7.0&color=green&style=flat-square&link=https://github.com/nonebot/nonebot)
+
+![](https://img.shields.io/static/v1?label=Python&message=3.7&color=blue&style=flat-square&link=https://www.python.org/)
+
+![](https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=red&style=flat-square&link=https://github.com/chenxuan353/tweetToBot/blob/v3/LICENSE)
+
+![](https://img.shields.io/static/v1?label=cqhttp-mirai&message=4.8&color=9cf&style=flat-square&link=https://github.com/yyuueexxiinngg/cqhttp-mirai)
+
+![](https://img.shields.io/static/v1?label=MIRAI&message=3.7&color=9cf&style=flat-square&link=https://github.com/mamoe/mirai)
+
+![](https://img.shields.io/static/v1?label=CQHTTP&message=4.8&color=brightgreen&style=flat-square&link=https://github.com/nonebot/aiocqhttp)
+
+![](https://img.shields.io/static/v1?label=go-cqhttp&message=stable&color=brightgreen&style=flat-square&link=https://github.com/Mrs4s/go-cqhttp)
+
+
 **此分支为项目文档所在分支**
 
 ![](https://img.shields.io/badge/sphinx-4.0+-blue)
