@@ -1,24 +1,8 @@
-# Docs分支
+# OneTweBot用户文档
 
-
-![](https://img.shields.io/static/v1?label=Nonebot&message=1.7.0&color=green&style=flat-square&link=https://github.com/nonebot/nonebot)
-
-![](https://img.shields.io/static/v1?label=Python&message=3.7&color=blue&style=flat-square&link=https://www.python.org/)
-
-![](https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=red&style=flat-square&link=https://github.com/chenxuan353/tweetToBot/blob/v3/LICENSE)
-
-![](https://img.shields.io/static/v1?label=cqhttp-mirai&message=4.8&color=9cf&style=flat-square&link=https://github.com/yyuueexxiinngg/cqhttp-mirai)
-
-![](https://img.shields.io/static/v1?label=MIRAI&message=3.7&color=9cf&style=flat-square&link=https://github.com/mamoe/mirai)
-
-![](https://img.shields.io/static/v1?label=CQHTTP&message=4.8&color=brightgreen&style=flat-square&link=https://github.com/nonebot/aiocqhttp)
-
-![](https://img.shields.io/static/v1?label=go-cqhttp&message=stable&color=brightgreen&style=flat-square&link=https://github.com/Mrs4s/go-cqhttp)
-
+![](https://img.shields.io/static/v1?label=Nonebot&message=1.7.0&color=green&style=flat-square&link=https://github.com/nonebot/nonebot)&nbsp;![](https://img.shields.io/static/v1?label=Python&message=3.7&color=blue&style=flat-square&link=https://www.python.org/)&nbsp;![](https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=red&style=flat-square&link=https://github.com/chenxuan353/tweetToBot/blob/v3/LICENSE)&nbsp;![](https://img.shields.io/static/v1?label=cqhttp-mirai&message=4.8&color=9cf&style=flat-square&link=https://github.com/yyuueexxiinngg/cqhttp-mirai)&nbsp;![](https://img.shields.io/static/v1?label=MIRAI&message=3.7&color=9cf&style=flat-square&link=https://github.com/mamoe/mirai)&nbsp;![](https://img.shields.io/static/v1?label=CQHTTP&message=4.8&color=brightgreen&style=flat-square&link=https://github.com/nonebot/aiocqhttp)&nbsp;![](https://img.shields.io/static/v1?label=go-cqhttp&message=stable&color=brightgreen&style=flat-square&link=https://github.com/Mrs4s/go-cqhttp)&nbsp;![](https://img.shields.io/static/v1?label=sphinx&message=4.0&color=blue&style=flat-square&link=https://www.sphinx-doc.org/en/master)
 
 **此分支为项目文档所在分支**
-
-![](https://img.shields.io/badge/sphinx-4.0+-blue)
 
 文档使用Python项目通用的[sphinx](https://www.sphinx-doc.org/en/master/index.html)进行部署和编写。基于Readthedocs提供的[sphinx_rtd_theme](https://github.com/rtfd/sphinx_rtd_theme)进行风格化构建。
 
@@ -32,7 +16,7 @@
 
 ### 依赖
 
-本文档citizen友好，因此请使用`git cz`代替`git commit`进行更新和同步。
+本文档commitzen友好，因此请使用`git cz`代替`git commit`进行更新和同步。
 
 关于本地服务依赖，请在根目录使用
 
@@ -66,17 +50,18 @@ sphinx-build -b html source static
 使用
 ```
 ./make html
+
 ```
 编译静态网页至`build/html`，可实现Push后自动更新部署至Readthedocs。
 
 ##### 生成PDF手册
 
-由于未能解决图片问题（GitHub图床无法解析/Shield.io的Badge亦无法获取-Error403），因此暂时不支持生成。去除/解决图片问题（例如进行本地化存在`_static/`）后，方可正常生成。
-
-*字体确定好像也有问题，现在能正常生成不过很丑*
+*中文字体似乎问题，请使用ReadTheDocs托管处生成的PDF*
 
 ```shell
+
 ./make pdf
+
 ```
 
 *EPUB/LATEX亦可*

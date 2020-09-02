@@ -18,7 +18,7 @@ import sphinx_rtd_theme
 # import recommonmark
 # -- Project information -----------------------------------------------------
 
-project = 'tweetToBot'
+project = 'OneTweBot'
 copyright = '2020, Cyame & Chenxuan353'
 author = 'Cyame & Chenxuan353'
 
