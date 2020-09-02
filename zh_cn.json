@@ -1,20 +1,20 @@
 {
     "embeddedFonts": [
-      "simhei"
+      "simsun"
     ],
     "fontsAlias": {
-      "stdFont": "simhei",
-      "stdBold": "simhei",
-      "stdItalic": "simhei",
-      "stdBoldItalic": "simhei",
-      "stdMono": "simhei",
-      "stdMonoBold": "simhei",
-      "stdMonoItalic": "simhei",
-      "stdMonoBoldItalic": "simhei",
-      "stdSans": "simhei",
-      "stdSansBold": "simhei",
-      "stdSansItalic": "simhei",
-      "stdSansBoldItalic": "simhei"
+      "stdFont": "simsun",
+      "stdBold": "simsun",
+      "stdItalic": "simsun",
+      "stdBoldItalic": "simsun",
+      "stdMono": "simsun",
+      "stdMonoBold": "simsun",
+      "stdMonoItalic": "simsun",
+      "stdMonoBoldItalic": "simsun",
+      "stdSans": "simsun",
+      "stdSansBold": "simsun",
+      "stdSansItalic": "simsun",
+      "stdSansBoldItalic": "simsun"
     },
     "styles": [
       [

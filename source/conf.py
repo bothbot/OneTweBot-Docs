@@ -23,7 +23,7 @@ author = 'Cyame & Chenxuan353'
 
 # The full version, including alpha/beta/rc tags
 release = 'v3'
-
+version = '2.01'
 
 # -- General configuration ---------------------------------------------------
 

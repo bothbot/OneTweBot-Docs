@@ -24,7 +24,7 @@ tweetToBot项目文档
 .. image:: https://img.shields.io/static/v1?label=go-cqhttp&message=stable&color=brightgreen&style=flat-square&link=https://github.com/Mrs4s/go-cqhttp
 
 
-本项目
+本项目为一对多转推服务的BOT后端，支持多种订阅形式。目前主要以CQ插件作为载体实现消息推送，服务遵从OneBot接口标准，可以适配各类CQHTTP服务。
 
 -------------------------
 文档导航

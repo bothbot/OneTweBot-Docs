@@ -36,7 +36,7 @@
 
 ### 基于本服务的扩展功能
 
-部分周边功能参见[分仓库](https://github.com/Cyame/OkayuTweetBot)
+部分周边功能参见[分仓库](https://github.com/OkayuDeveloper/OkayuTweetBot)
 
 ## 联系我们
 
