@@ -34,7 +34,7 @@
 
 ※ 安装思源黑体CN之后可以修复字体问题。
 
-### 其他
+### 基于本服务的扩展功能
 
 部分周边功能参见[分仓库](https://github.com/Cyame/OkayuTweetBot)
 

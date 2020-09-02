@@ -69,4 +69,4 @@ python -m http.server 80
 - 编译：`npm run build`
 - 编译并开启80端口服务：`npm run serve`
 - 提交本地仓库：`npm run done`
-  *提交本地仓库将会自动`git add .`之后请求用户进行基于CZ格式化的Commit*
+  *提交本地仓库将会自动`git add .`之后请求用户进行基于CZ格式化的Commit，编写完成后需要手动`git push`*
