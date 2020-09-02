@@ -1,0 +1,33 @@
+{
+    "embeddedFonts": [
+      "simhei"
+    ],
+    "fontsAlias": {
+      "stdFont": "simhei",
+      "stdBold": "simhei",
+      "stdItalic": "simhei",
+      "stdBoldItalic": "simhei",
+      "stdMono": "simhei",
+      "stdMonoBold": "simhei",
+      "stdMonoItalic": "simhei",
+      "stdMonoBoldItalic": "simhei",
+      "stdSans": "simhei",
+      "stdSansBold": "simhei",
+      "stdSansItalic": "simhei",
+      "stdSansBoldItalic": "simhei"
+    },
+    "styles": [
+      [
+        "base",
+        {
+          "wordWrap": "None"
+        }
+      ],
+      [
+        "literal",
+        {
+          "wordWrap": "None"
+        }
+      ]
+    ]
+  }

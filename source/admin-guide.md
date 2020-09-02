@@ -70,7 +70,7 @@ wget https://github.com/richardchien/coolq-http-api/releases/download/v4.15.0/io
 
 **在其中添加两行以打开消息推送**
 
-```JSON
+```javascript
 "rate_limit_interval":500,
 "enable_rate_limited_actions": true,
 ```
@@ -81,7 +81,7 @@ wget https://github.com/richardchien/coolq-http-api/releases/download/v4.15.0/io
 
 下面给出一个配置范例
 
-```JSON
+```javascript
 {
     "$schema": "https://cqhttp.cc/config-schema.json",
     "host": "0.0.0.0",

@@ -10,6 +10,7 @@ if "%SPHINXBUILD%" == "" (
 set SOURCEDIR=source
 set BUILDDIR=build
 
+
 if "%1" == "" goto help
 
 %SPHINXBUILD% >NUL 2>NUL
@@ -23,6 +24,14 @@ if errorlevel 9009 (
 	echo.If you don't have Sphinx installed, grab it from
 	echo.http://sphinx-doc.org/
 	exit /b 1
+)
+
+if "%1" == "pdf" (
+   %SPHINXBUILD% -b pdf %SOURCEDIR% %BUILDDIR%/pdf
+   if errorlevel 1 exit /b 1
+   echo.
+   echo.Build finished. The pdf files are in %BUILDDIR%/pdf.
+   goto end
 )
 
 %SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%

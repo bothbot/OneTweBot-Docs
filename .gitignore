@@ -12,3 +12,4 @@ build/
 botinterface/
 config.py
 source/_build/
+pdf/

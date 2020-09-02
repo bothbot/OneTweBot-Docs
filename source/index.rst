@@ -9,8 +9,6 @@ tweetToBot项目文档
 ------------------------
 项目简介
 ------------------------
-
-
 .. image:: https://img.shields.io/static/v1?label=Nonebot&message=1.7.0&color=green&style=flat-square&link=https://github.com/nonebot/nonebot
 
 .. image:: https://img.shields.io/static/v1?label=Python&message=3.7&color=blue&style=flat-square&link=https://www.python.org/
@@ -27,7 +25,6 @@ tweetToBot项目文档
 
 
 本项目
-
 
 -------------------------
 文档导航

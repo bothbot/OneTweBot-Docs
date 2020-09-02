@@ -53,6 +53,23 @@ sphinx-build -b html source static
 ```
 编译静态网页至`build/html`，可实现Push后自动更新部署至Readthedocs。
 
+##### 生成PDF手册
+
+由于未能解决图片问题（GitHub图床无法解析/Shield.io的Badge亦无法获取-Error403），因此暂时不支持生成。去除/解决图片问题（例如进行本地化存在`_static/`）后，方可正常生成。
+
+*字体确定好像也有问题，现在能正常生成不过很丑*
+
+```shell
+./make pdf
+```
+
+*EPUB/LATEX亦可*
+
+```
+./make epub
+./make latex
+```
+
 #### 本地服务
 
 推荐使用Python内置提供的HTTP.SERVER进行本地环境启动。
