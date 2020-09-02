@@ -14,8 +14,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
-import rst2pdf
-import recommonmark
+# import rst2pdf
+# import recommonmark
 # -- Project information -----------------------------------------------------
 
 project = 'tweetToBot'
@@ -35,7 +35,7 @@ extensions = [
     "sphinx_rtd_theme",
     "recommonmark",
     "sphinx.ext.autodoc",
-    "rst2pdf.pdfbuilder"
+    # "rst2pdf.pdfbuilder"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -87,12 +87,12 @@ html_static_path = ['_static']
 # would mean that specific document would be compressed
 # regardless of the global pdf_compressed setting.
  
-pdf_documents = [
-    ('index', u'tweetToBotHandbook', u'tweetToBot Handbook', u'Cyame & Chenxuan353'),
-]
+# pdf_documents = [
+#     ('index', u'tweetToBotHandbook', u'tweetToBot Handbook', u'Cyame & Chenxuan353'),
+# ]
  
 # A comma-separated list of custom stylesheets. Example:
-pdf_stylesheets = ['a3','zh_cn','sphinx']
+# pdf_stylesheets = ['a3','zh_cn','sphinx']
  
 # Create a compressed PDF
 # Use True/False or 1/0
@@ -100,14 +100,14 @@ pdf_stylesheets = ['a3','zh_cn','sphinx']
 #pdf_compressed = False
  
 # A colon-separated list of folders to search for fonts. Example:
-pdf_font_path = ['_static']
+# pdf_font_path = ['_static']
  
 # Language to be used for hyphenation support
-pdf_language = "zh_cn"
+# pdf_language = "zh_cn"
  
 # Mode for literal blocks wider than the frame. Can be
 # overflow, shrink or truncate
-pdf_fit_mode = "shrink"
+# pdf_fit_mode = "shrink"
  
 # Section level that forces a break page.
 # For example: 1 means top-level sections start in a new page
@@ -155,13 +155,13 @@ pdf_fit_mode = "shrink"
 # pdf_use_toc = False
  
 # How many levels deep should the table of contents be?
-pdf_toc_depth = 1
+# pdf_toc_depth = 1
  
 # Add section number to section references
-pdf_use_numbered_links = False
+# pdf_use_numbered_links = False
  
 # Background images fitting mode
-pdf_fit_background_mode = 'scale'
+# pdf_fit_background_mode = 'scale'
 
 
 
