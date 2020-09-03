@@ -1,8 +1,11 @@
 # OneTweBot用户文档
 
-![](https://img.shields.io/static/v1?label=Nonebot&message=1.7.0&color=green&style=flat-square&link=https://github.com/nonebot/nonebot)&nbsp;![](https://img.shields.io/static/v1?label=Python&message=3.7&color=blue&style=flat-square&link=https://www.python.org/)&nbsp;![](https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=red&style=flat-square&link=https://github.com/chenxuan353/tweetToBot/blob/v3/LICENSE)&nbsp;![](https://img.shields.io/static/v1?label=cqhttp-mirai&message=4.8&color=9cf&style=flat-square&link=https://github.com/yyuueexxiinngg/cqhttp-mirai)&nbsp;![](https://img.shields.io/static/v1?label=MIRAI&message=3.7&color=9cf&style=flat-square&link=https://github.com/mamoe/mirai)&nbsp;![](https://img.shields.io/static/v1?label=CQHTTP&message=4.8&color=brightgreen&style=flat-square&link=https://github.com/nonebot/aiocqhttp)&nbsp;![](https://img.shields.io/static/v1?label=go-cqhttp&message=stable&color=brightgreen&style=flat-square&link=https://github.com/Mrs4s/go-cqhttp)&nbsp;![](https://img.shields.io/static/v1?label=sphinx&message=4.0&color=blue&style=flat-square&link=https://www.sphinx-doc.org/en/master)
+![](https://img.shields.io/static/v1?label=Nonebot&message=1.7.0&color=green&style=flat-square&link=https://github.com/nonebot/nonebot)&nbsp;![](https://img.shields.io/static/v1?label=Python&message=3.7&color=blue&style=flat-square&link=https://www.python.org/)&nbsp;![](https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=red&style=flat-square&link=https://github.com/chenxuan353/tweetToBot/blob/v3/LICENSE)&nbsp;![](https://img.shields.io/static/v1?label=cqhttp-mirai&message=0.2.3&color=9cf&style=flat-square&link=https://github.com/yyuueexxiinngg/cqhttp-mirai)&nbsp;![](https://img.shields.io/static/v1?label=Mirai&message=1.2.2&color=9cf&style=flat-square&link=https://github.com/mamoe/mirai)&nbsp;![](https://img.shields.io/static/v1?label=CQHTTP&message=4.8&color=brightgreen&style=flat-square&link=https://github.com/nonebot/aiocqhttp)&nbsp;![](https://img.shields.io/static/v1?label=go-cqhttp&message=stable&color=brightgreen&style=flat-square&link=https://github.com/Mrs4s/go-cqhttp)&nbsp;![](https://img.shields.io/static/v1?label=sphinx&message=4.0&color=blue&style=flat-square&link=https://www.sphinx-doc.org/en/master)&nbsp;![](https://img.shields.io/static/v1?label=commitzen&message=friendly&color=brightgreen&style=flat-square&link=http://commitizen.github.io/cz-cli/)
 
-**此分支为项目文档所在分支**
+#### [用户文档](https://bothbot-documentation.readthedocs.io/)
+
+**此分支为OneTweBot项目文档仓库** 
+项目主仓库目前位于[tweetToBot](https://github.com/chenxuan353/tweetToBot)
 
 文档使用Python项目通用的[sphinx](https://www.sphinx-doc.org/en/master/index.html)进行部署和编写。基于Readthedocs提供的[sphinx_rtd_theme](https://github.com/rtfd/sphinx_rtd_theme)进行风格化构建。
 
@@ -56,11 +59,11 @@ sphinx-build -b html source static
 
 ##### 生成PDF手册
 
-*中文字体似乎问题，请使用ReadTheDocs托管处生成的PDF*
+*本地生成PDF时中文字体似乎问题，请使用ReadTheDocs托管处生成的PDF*
 
 ```shell
 
-./make pdf
+./make latexpdf
 
 ```
 
