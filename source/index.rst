@@ -29,7 +29,6 @@ OneTweBot项目文档
 .. toctree::
    :maxdepth: 2
 
-   genindex
    admin-guide
    user-guide
    resources
